@@ -32,9 +32,10 @@ It is important to note that the __data in this repository is not real data,__ b
 
 ## Prerequisites
 
-- **Python 3.10+** (virtual environment recommended)
+- **Python 3.10** (virtual environment recommended)
 - **Operating System:** Linux (or Windows Subsystem for Linux)
 - **Dependencies:** All packages listed in `requirements.txt`
+- **R 4.3.2** (For ROCK and COOLCAT Algorithms)
 
 ## Setup
 
@@ -50,11 +51,13 @@ It is important to note that the __data in this repository is not real data,__ b
 
 ## Running the Pipeline
 
-To execute the full project pipeline with DVC, run:
+To execute the phases: Fetch data, ETL and Feature Engineering with DVC, run:
 
 ```bash
  dvc repro
 ```
+
+The analysis and modelling phase has been implemented using Jupyer notebooks and .R files.
 
 This will sequentially perform:
 

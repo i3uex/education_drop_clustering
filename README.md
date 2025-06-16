@@ -56,14 +56,12 @@ To execute the phases: Fetch data, ETL and Feature Engineering with DVC, run:
 ```bash
  dvc repro
 ```
-
-The analysis and modelling phase has been implemented using Jupyer notebooks and .R files.
-
 This will sequentially perform:
 
 1. **fetch data**
 2. **ETL**
 3. **feature engineering**
+The analysis and modelling phase has been implemented using Jupyer notebooks and .R files.
 
 ## Launching Clustering Models
 
